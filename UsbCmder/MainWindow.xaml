@@ -1,0 +1,41 @@
+﻿<Window x:Class="UsbCmder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UsbCmder"
+        mc:Ignorable="d"
+        Title="UsbCommander" Height="604.314" Width="879.646">
+    <Grid>
+        <ComboBox x:Name="m_cboDriveSel" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="77"/>
+        <Button x:Name="m_btnRefresh" Content="ReFresh" HorizontalAlignment="Left" Margin="92,10,0,0" VerticalAlignment="Top" Width="75" Click="m_btnRefresh_Click"/>
+        <Button x:Name="m_btnExecute" Content="Execute" HorizontalAlignment="Left" Margin="172,10,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.119,-0.747" Click="m_btnExecute_Click"/>
+        <TextBox x:Name="m_txtCdb_00" HorizontalAlignment="Left" Height="17" Margin="13,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_01" HorizontalAlignment="Left" Height="17" Margin="43,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_02" HorizontalAlignment="Left" Height="17" Margin="73,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_03" HorizontalAlignment="Left" Height="17" Margin="103,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_04" HorizontalAlignment="Left" Height="17" Margin="133,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_05" HorizontalAlignment="Left" Height="17" Margin="163,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_06" HorizontalAlignment="Left" Height="17" Margin="193,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_07" HorizontalAlignment="Left" Height="17" Margin="223,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_08" HorizontalAlignment="Left" Height="17" Margin="253,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_09" HorizontalAlignment="Left" Height="17" Margin="283,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_10" HorizontalAlignment="Left" Height="17" Margin="313,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_11" HorizontalAlignment="Left" Height="17" Margin="343,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_12" HorizontalAlignment="Left" Height="17" Margin="373,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_13" HorizontalAlignment="Left" Height="17" Margin="403,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_14" HorizontalAlignment="Left" Height="17" Margin="433,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtCdb_15" HorizontalAlignment="Left" Height="17" Margin="463,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
+        <TextBox x:Name="m_txtMsg_1st" HorizontalAlignment="Left" Height="392" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <TextBox x:Name="m_txtMsg_2nd" HorizontalAlignment="Left" Height="392" Margin="327,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
+        <TextBox x:Name="m_txtDataLength" HorizontalAlignment="Left" Height="23" Margin="502,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="76"/>
+        <RadioButton x:Name="m_rdoDataIn" Content="DataIn" HorizontalAlignment="Left" Margin="502,38,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="m_rdoDataOut" Content="DataOut" HorizontalAlignment="Left" Margin="502,57,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="m_cboCmdSel" HorizontalAlignment="Left" Margin="13,38,0,0" VerticalAlignment="Top" Width="154" SelectionChanged="m_cboCmdSel_SelectionChanged"/>
+
+
+
+
+
+    </Grid>
+</Window>
