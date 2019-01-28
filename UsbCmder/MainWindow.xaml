@@ -26,7 +26,7 @@
         <TextBox x:Name="m_txtCdb_13" HorizontalAlignment="Left" Height="17" Margin="403,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
         <TextBox x:Name="m_txtCdb_14" HorizontalAlignment="Left" Height="17" Margin="433,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
         <TextBox x:Name="m_txtCdb_15" HorizontalAlignment="Left" Height="17" Margin="463,75,0,0" TextWrapping="Wrap" Text="00" VerticalAlignment="Top" Width="24"/>
-        <TextBox x:Name="m_txtMsg_1st" HorizontalAlignment="Left" Height="392" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="387" FontFamily="Consolas"/>
+        <TextBox x:Name="m_txtMsg_1st" HorizontalAlignment="Left" Height="392" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="387" FontFamily="Consolas" VerticalScrollBarVisibility="Visible"/>
         <TextBox x:Name="m_txtMsg_2nd" HorizontalAlignment="Left" Height="392" Margin="403,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="295"/>
         <TextBox x:Name="m_txtDataLength" HorizontalAlignment="Left" Height="23" Margin="502,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="76"/>
         <RadioButton x:Name="m_rdoDataIn" Content="DataIn" HorizontalAlignment="Left" Margin="502,38,0,0" VerticalAlignment="Top"/>
